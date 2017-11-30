@@ -3,17 +3,92 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://use.fontawesome.com/5f2d38c9ed.js"></script>
         <title>welcome!</title>
         <style>
             body {
-                text-align: center;
                 font-family: monospace;
+            }
+
+            h1 {
+                font-size: 35px;
+            }
+
+            .container {
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .content-container {
+                margin: 40px auto;
+                width: 600px;
+                text-align: left;
+            }
+
+            ul {
+                font-size: 20px;
+                list-style: none;
+                -webkit-padding-start: 0;
+            }
+
+            li {
+                /* margin-top: 5px; */
+                line-height: 1.5;
+                position: relative;
+                padding-left: 40px;
+            }
+
+            p {
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            i.fa-link{
+                position: absolute;
+                left: 10px;
+            }
+
+            a:link, a:visited { 
+                /* color: (internal value); */
+                text-decoration: none;
+                cursor: pointer;
             }
         </style>
     </head>
     <body>
-        <h2>Welcome to moongazers site!</h2>
-        <h3>A moon rock is always tasting better than an earth rock :)</h3>
+        <div class="container">
+            <h1>Welcome to moongazer's playground!</h1>
+            <h2>A moon rock is always tasting better than an earth rock :)</h2>
+            <div class="content-container">
+                <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Personal projects</p>
+                <ul>
+                    <li>
+                        <i class="fa fa-link" aria-hidden="true"></i><a href="https://github.com/moongazers/angular2/tree/master/USHolidayAppCLI">USA Holidays App with Angular V4, Angular CLI and material UI</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-link" aria-hidden="true"></i><a href="https://moongazers.github.io/app/index.html">Grid/table manipulation project, showing how I organize js code</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-link" aria-hidden="true"></i><a href="https://github.com/moongazers/angular/tree/master/MEAN">Employee management app with angular 1 and MEAN stack</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-link" aria-hidden="true"></i><a href="https://github.com/moongazers/algo">Some algorithms implementation</a>
+                    </li>
+                </ul>
+                <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Gists</p>
+                <ul>
+                    <li>
+                        <i class="fa fa-link" aria-hidden="true"></i><a href="https://gist.github.com/moongazers/a4d9ba20de2607f0efec90c270b5bae8">Understanding of a number formatting Regexp</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-link" aria-hidden="true"></i><a href="https://gist.github.com/moongazers/ff8967b9d9b311d303438936d6830a01">"Count unique elements" UI problem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        
         
         <script>
         </script>
